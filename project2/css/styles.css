@@ -27,5 +27,6 @@ header {
 }
 
 .overview {
-    background-color: --gray;
+    background-color: var(--gray);
+    color: #fff;
 }
