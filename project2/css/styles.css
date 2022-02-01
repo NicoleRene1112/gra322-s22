@@ -21,6 +21,12 @@ h2 {
     text-transform: uppercase;
 }
 
+p {
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
 .grid {
     display: grid;
     grid-template-columns: [full-start] minmax(1rem, 1fr) [main-st];
