@@ -29,5 +29,5 @@ header {
 .overview {
     background-color: var(--gray);
     color: #fff;
-    padding: 4rem;
+    padding: 4rem 0;
 }
