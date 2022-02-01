@@ -29,7 +29,7 @@ p {
 
 .grid {
     display: grid;
-    grid-template-columns: [full-start] minmax(1rem, 1fr) [main-st];
+    grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start];
 }
 
 .grid > * {
