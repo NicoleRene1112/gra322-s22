@@ -46,3 +46,7 @@ header {
     color: #fff;
     padding: 4rem 0;
 }
+
+figure {
+    margin-top: 2rem;
+}
