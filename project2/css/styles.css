@@ -13,6 +13,12 @@ h1 {
     font-weight: 500;
 }
 
+h2 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
 .grid {
     display: grid;
     grid-template-columns: [full-start] minmax(1rem, 1fr) [main-st];
