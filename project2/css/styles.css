@@ -10,7 +10,9 @@ body {
 
 h1 {
     color: #fff;
-    font-weight: 500;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 h2 {
