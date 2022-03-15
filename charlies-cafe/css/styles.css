@@ -66,6 +66,7 @@ footer p {
 
 .grid > * {
     grid-column: main;
+    padding: 2rem;
 }
 
 header {
