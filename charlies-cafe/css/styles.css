@@ -33,6 +33,10 @@ h2 {
     padding-right: 1rem;
 }
 
+dl {
+    padding: 3rem 0;
+}
+
 figure {
     margin-top: 2rem;
 }
