@@ -33,6 +33,10 @@ h2 {
     padding-right: 1rem;
 }
 
+dt {
+    padding: 3rem 0;
+}
+
 figure {
     margin-top: 2rem;
 }
@@ -149,10 +153,6 @@ p {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
     justify-content: space-around;
-}
-
-.two-column {
-    padding: 3rem 0;
 }
 
 @media screen and (min-width: 800px) {
