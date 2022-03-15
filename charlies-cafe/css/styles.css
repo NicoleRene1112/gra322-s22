@@ -62,11 +62,11 @@ footer p {
     /*display: grid;*/
     grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
     grid-template-rows: auto;
+    padding: 2rem;
 }
 
 .grid > * {
     grid-column: main;
-    padding: 2rem;
 }
 
 header {
