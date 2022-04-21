@@ -1,3 +1,5 @@
+
+
 .back-to-top {
     position: fixed;
     right: 1rem;
@@ -5,8 +7,7 @@
   }
 
 body {
-    background-color: var(--gray);
-    color: #fff;
+    background-color: var(--white);
     display: grid;
     font-family: 'Raleway', Helvetica, Arial, san-serif;
     grid-template-columns: repeat(16, 3rem);
