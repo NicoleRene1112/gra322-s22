@@ -15,10 +15,6 @@ body {
     padding: 7rem 7rem 89px;
 }
 
-.current-page {
-    font-weight: bold;
-  }
-
 .grid {
     display: grid;
     grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
