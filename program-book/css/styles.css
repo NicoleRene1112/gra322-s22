@@ -25,13 +25,10 @@ body {
 
 h1 {
     font-size: 32pt;
+    grid-column: 1 / span 5;
+    grid-row: 1;
 }
 
 h2 {
     font-size: 22pt;
-}
-
-.name {
-    grid-column: 1 / span 5;
-    grid-row: 1;
 }
