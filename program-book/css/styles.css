@@ -11,6 +11,7 @@ body {
     font-family: 'Raleway', Helvetica, Arial, san-serif;
     grid-template-columns: repeat(16, 3rem);
     grid-template-rows: 4rem 4rem 474px 4rem;
+    column-gap: 23px;
     row-gap: 1px 20px;
     padding: 7rem 7rem 89px;
 }
