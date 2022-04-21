@@ -32,4 +32,6 @@ h1 {
 
 h2 {
     font-size: 22pt;
+    grid-column: 1 / span 5;
+    grid-row: 2;
 }
