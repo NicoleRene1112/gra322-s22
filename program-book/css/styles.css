@@ -31,6 +31,6 @@ h2 {
 }
 
 .name {
-    grid-column: 1/6;
+    grid-column: 1 / 6;
     grid-row: 1;
 }
