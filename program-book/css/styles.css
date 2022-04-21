@@ -7,7 +7,11 @@
 body {
     background-color: var(--gray);
     color: #fff;
+    display: grid;
     font-family: 'Raleway', Helvetica, Arial, san-serif;
+    grid-template-columns: 3rem;
+    grid-template-rows: 4rem 4rem 474px 4rem;
+    grid-row-gap: 20px;
     margin: 0;
 }
 
@@ -19,5 +23,5 @@ body {
     display: grid;
     grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
     grid-template-rows: auto;
-    padding: 3rem 0;
+    /*padding: 3rem 0;*/
 }
