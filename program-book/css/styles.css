@@ -147,7 +147,6 @@ p {
   .menu >  div > ul{
       display: flex;
       flex-direction: column;
-      position: fixed;
       top: 70px;
       padding-left: 10px;
     
