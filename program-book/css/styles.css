@@ -42,6 +42,16 @@ p {
     grid-row: 1 / span 2;
 }
 
+.scrolling-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  
+    .card {
+      flex: 0 0 auto;
+    }
+  }
+
 /*START HAMBURGER MENU*/
 /*Hamburger menu code by Daniel Hearn on CodePen*/
 @keyframes bugfix {
