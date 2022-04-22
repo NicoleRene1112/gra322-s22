@@ -127,6 +127,7 @@
   }
   #overlay.active {
     visibility: visible;
+    overflow-y: scroll;
   }
   #overlay ul {
     display: flex;
