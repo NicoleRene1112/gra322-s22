@@ -43,6 +43,7 @@
     grid-row: 1 / span 2;
   }
   
+  /*START HORIZONTAL SCROLL*/
   .app {
     display: grid;
     cursor: grab;
@@ -77,6 +78,7 @@
   .item {
     background-color: lightgrey;
   }
+  /*END HORIZONTAL SCROLL*/
   
   /*START HAMBURGER MENU*/
   /*Hamburger menu code by Daniel Hearn on CodePen*/
