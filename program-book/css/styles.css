@@ -151,43 +151,6 @@
   }
   /*END HAMBURGER MENU*/
 
-    /*START HORIZONTAL SCROLL*/
-  .app {
-    display: grid;
-    cursor: grab;
-    grid-column: 1 / 16;
-    grid-row: 4;
-    overflow-y: hidden;
-    overflow-x: scroll;
-  }
-    .app::-webkit-scrollbar {
-    display: none;
-  }
-  
-  .hs {
-    display: grid;
-    grid-gap: 23px;
-    grid-row: 4;
-    grid-template-columns:
-      repeat(6, 561px);
-    grid-template-rows: 464px;
-    padding: 0;
-  }
-  
-  .hs > li,
-  .item {
-    scroll-snap-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .item {
-    background-color: lightgrey;
-  }
-  /*END HORIZONTAL SCROLL*/
-
   /*START HORIZONTAL SCROLL*/
   .app {
     display: grid;
