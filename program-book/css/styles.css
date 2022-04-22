@@ -62,8 +62,6 @@ p {
       top: 0;
       left: 0;*/
       height: 40px;
-      width: 40px;
-      padding: 0.6rem;
       grid-column: 15;
       grid-row: 1;
     
