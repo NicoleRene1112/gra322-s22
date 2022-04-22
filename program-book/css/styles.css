@@ -3,61 +3,84 @@
     right: 1rem;
     bottom: 1rem;
   }
-
-body{
-    height: 100vh;
-    width: 100vw;
-      background-color: var(--white);
+  
+  body {
+    background-color: var(--white);
     display: grid;
-    font-family: 'Raleway', Helvetica, Arial, san-serif;
+    font-family: "Raleway", Helvetica, Arial, san-serif;
     grid-template-columns: repeat(16, 3rem);
     grid-template-rows: 30px 27px 58px 474px 3rem;
     column-gap: 23px;
     row-gap: 5px;
-    padding: 89px 7rem 0 7rem;
-}
-
-.grid {
+    margin: 89px 7rem 0 7rem;
+    /*padding: 89px 7rem 0 7rem;*/
+  }
+  
+  .grid {
     display: grid;
-    grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
+    grid-template-columns:
+      [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px)
+      [main-end] minmax(1rem, 1fr) [full-end];
     grid-template-rows: auto;
     /*padding: 3rem 0;*/
-}
-
-h1 {
+  }
+  
+  h1 {
     font-size: 24pt;
     grid-column: 1 / span 5;
     grid-row: 1;
-}
-
-h2 {
+  }
+  
+  h2 {
     font-size: 16pt;
     grid-column: 1 / span 5;
     grid-row: 2;
-}
-
-p {
+  }
+  
+  p {
     font-size: 10pt;
     grid-column: 6 / span 9;
     grid-row: 1 / span 2;
-}
-
-.scrolling-wrapper {
-    display: flex;
-    flex-wrap: nowrap;
-    grid-column: 1 / span 16;
-    grid-row: 4;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  
-    .card {
-      flex: 0 0 auto;
-    }
   }
-
-/*START HAMBURGER MENU*/
-/*Hamburger menu code by Daniel Hearn on CodePen*/
-@keyframes bugfix {
+  
+  .app {
+    display: grid;
+    cursor: grab;
+    grid-column: 1 / 16;
+    grid-row: 4;
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+    .app::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .hs {
+    display: grid;
+    grid-gap: 23px;
+    grid-row: 4;
+    grid-template-columns:
+      repeat(6, 561px);
+    grid-template-rows: 464px;
+    padding: 0;
+  }
+  
+  .hs > li,
+  .item {
+    scroll-snap-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item {
+    background-color: lightgrey;
+  }
+  
+  /*START HAMBURGER MENU*/
+  /*Hamburger menu code by Daniel Hearn on CodePen*/
+  @keyframes bugfix {
     from {
       padding: 0;
     }
