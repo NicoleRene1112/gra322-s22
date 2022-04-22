@@ -1,4 +1,9 @@
-.back-to-top {
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .back-to-top {
     position: fixed;
     right: 1rem;
     bottom: 1rem;
@@ -6,14 +11,14 @@
   
   body {
     background-color: var(--white);
+    column-gap: 23px;
     display: grid;
     font-family: "Raleway", Helvetica, Arial, san-serif;
     grid-template-columns: repeat(16, 3rem);
     grid-template-rows: 30px 27px 58px 474px 3rem;
-    column-gap: 23px;
     row-gap: 5px;
-    margin: 89px 7rem 0 7rem;
-    /*padding: 89px 7rem 0 7rem;*/
+    /*margin: 89px 7rem 0 7rem;*/
+    padding: 89px 7rem 0 7rem;
   }
   
   .grid {
@@ -91,8 +96,8 @@
     width: 35px;
     border-radius: 2px;
     background-color: black;
-    position: absolute;
     content: "";
+    position: absolute;
     transition: all 0.2s ease-in-out;
   }
   #overlay-button:hover span,
@@ -100,43 +105,64 @@
   #overlay-button:hover span:after {
     background: gray;
   }
-  input[type=checkbox] {
+  
+  input[type="checkbox"] {
     display: none;
   }
-  input[type=checkbox]:checked ~ #overlay {
+  input[type="checkbox"]:checked ~ #overlay {
+    height: 100%;
+    left: 0;
+    overflow: scroll;
+    position: absolute;
+    top: 0;
     visibility: visible;
+    width: 100%;
+    z-index: 2;
   }
-  input[type=checkbox]:checked ~ #overlay-button:hover span,
-  input[type=checkbox]:checked ~ #overlay-button span {
+  input[type="checkbox"]:checked ~ #overlay::-webkit-scrollbar {
+    display: none;
+  }
+  input[type="checkbox"]:checked ~ #overlay-button:hover span,
+  input[type="checkbox"]:checked ~ #overlay-button span {
     background: transparent;
   }
-  input[type=checkbox]:checked ~ #overlay-button span:before {
+  input[type="checkbox"]:checked ~ #overlay-button span:before {
     transform: rotate(45deg) translate(7px, 7px);
     opacity: 1;
   }
-  input[type=checkbox]:checked ~ #overlay-button span:after {
+  input[type="checkbox"]:checked ~ #overlay-button span:after {
     transform: rotate(-45deg) translate(7px, -7px);
   }
   #overlay {
-    height: 100vh;
-    width: 100vw;
     background: white;
-    z-index: 2;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: absolute;
     visibility: hidden;
-    position: fixed;
+    z-index: 2;
   }
   #overlay.active {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
     visibility: visible;
+    width: 100%;
   }
   #overlay ul {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
     flex-direction: column;
-    text-align: center;
-    height: 100vh;
-    padding-left: 0;
+    justify-content: center;
     list-style-type: none;
+    margin: 0;
+    overflow: scroll;
+    padding: 0;
+    text-align: center;
+  }
+  #overlay ul::-webkit-scrollbar {
+    display: none;
   }
   #overlay ul li {
     padding: 1em;
@@ -150,7 +176,7 @@
     color: #333332;
   }
   /*END HAMBURGER MENU*/
-
+  
   /*START HORIZONTAL SCROLL*/
   .app {
     display: grid;
@@ -160,7 +186,7 @@
     overflow-y: hidden;
     overflow-x: scroll;
   }
-    .app::-webkit-scrollbar {
+  .app::-webkit-scrollbar {
     display: none;
   }
   
@@ -168,8 +194,7 @@
     display: grid;
     grid-gap: 23px;
     grid-row: 4;
-    grid-template-columns:
-      repeat(6, 561px);
+    grid-template-columns: repeat(6, 561px);
     grid-template-rows: 464px;
     padding: 0;
   }
@@ -187,3 +212,4 @@
     background-color: lightgrey;
   }
   /*END HORIZONTAL SCROLL*/
+  
