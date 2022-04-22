@@ -17,11 +17,11 @@ body{
     padding: 89px 7rem 0 7rem;
 }
 
-.grid {
+/*.grid {
     display: grid;
     grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
     grid-template-rows: auto;
-    /*padding: 3rem 0;*/
+    padding: 3rem 0;*/
 }
 
 h1 {
@@ -45,7 +45,10 @@ p {
 .scrolling-wrapper {
     display: flex;
     flex-wrap: nowrap;
+    grid-column: 1 / span 16;
+    grid-row: 3;
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   
     .card {
       flex: 0 0 auto;
