@@ -56,12 +56,14 @@ p {
   }
   
   .hamburger{
-      position: absolute;
+      /*position: absolute;
       top: 0;
       left: 0;
       height: 40px;
       width: 40px;
-      padding: 0.6rem;
+      padding: 0.6rem;*/
+      grid-column: 16;
+      grid-row: 1;
     
     /* FOR DISPLAYING EVERY ELEMENT IN THE CENTER : */
     
