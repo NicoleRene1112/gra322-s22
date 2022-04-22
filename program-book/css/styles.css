@@ -124,6 +124,7 @@
     z-index: 2;
     visibility: hidden;
     position: fixed;
+    overflow-y: scroll;
   }
   #overlay.active {
     visibility: visible;
