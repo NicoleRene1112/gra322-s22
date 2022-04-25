@@ -78,7 +78,7 @@ html, body {
     height: 4px;
     width: 35px;
     border-radius: 2px;
-    background-color: rgb(255, 255, 255, 75%);
+    background-color: cmyk(1%, 0%, 0%, 25%);
     position: relative;
     display: block;
     transition: all 0.2s ease-in-out;
@@ -95,7 +95,7 @@ html, body {
     height: 4px;
     width: 35px;
     border-radius: 2px;
-    background-color: rgb(255, 255, 255, 75%);
+    background-color: cmyk(1%, 0%, 0%, 25%);
     content: "";
     position: absolute;
     transition: all 0.2s ease-in-out;
@@ -172,7 +172,7 @@ html, body {
     font-size: 1.5em;
   }
   #overlay ul li a:hover {
-    color: rgb(255, 255, 255, 50%);
+    color: cmyk(0%, 0%, 0%, 25%);
   }
   /*END HAMBURGER MENU*/
   
