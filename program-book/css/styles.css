@@ -144,7 +144,6 @@ html, body {
   #overlay.active {
     height: 100%;
     left: 0;
-    opacity: .75;
     position: absolute;
     top: 0;
     visibility: visible;
@@ -173,7 +172,7 @@ html, body {
     font-size: 1.5em;
   }
   #overlay ul li a:hover {
-    color: #333332;
+    color: rgb(255, 255, 255, 50%);
   }
   /*END HAMBURGER MENU*/
   
