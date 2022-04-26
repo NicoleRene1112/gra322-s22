@@ -180,7 +180,7 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 /*END HAMBURGER MENU*/
 
 /*START HORIZONTAL SCROLL*/
-a:hover {
+a img:hover {
   background-color:black;
 }
 
