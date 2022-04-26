@@ -264,8 +264,6 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 
 .caption {
   position: absolute;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-content: center;
   transition: 
