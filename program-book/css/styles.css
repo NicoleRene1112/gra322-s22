@@ -257,11 +257,6 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   opacity: 0.25;
 }
 
-itme > caption:hover {
-  opacity: 1;
-  width: 100%;
-}
-
 .item {
   background-color: lightgrey;
   position: relative;
@@ -269,9 +264,8 @@ itme > caption:hover {
 
 .caption {
   position: absolute;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
-  opacity: 0;
-  transition: 0.25s;
 }
 /*END HORIZONTAL SCROLL*/
