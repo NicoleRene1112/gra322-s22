@@ -251,6 +251,7 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 
 .img-box a:hover {
   opacity: 0.25;
+  transition: .5s;
 }
 
 .item {
@@ -270,5 +271,6 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   justify-content: center;
   align-content: center;
   opacity: 1;
+  transition: .5s;
 }
 /*END HORIZONTAL SCROLL*/
