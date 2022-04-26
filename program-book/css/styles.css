@@ -214,10 +214,49 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   background-color: lightgrey;
 }
 /*END HORIZONTAL SCROLL*/
-.hoverimg {
-  position: relative;
+
+.img-box {
+  display: flex;
 }
-.hovertext {
-  align-items: center;
+
+.img-box {
+  position: relative;
+  display: block;
+  width: 50%;
+  /*background: #000;
+  margin: 0 10px;
+  max-height: 360px;
+  overflow: hidden;*/
+}
+
+.img-box .img,
+.img-box img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 360px;
+  width: 100%;
+  transition: 0.5s ease;
+}
+
+/*.one {
+  background-image: url('singlepagewebsite.html');
+}*/
+
+.img-box .img-hover {
+  opacity: 0;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  transition: 0.5s ease;
+}
+
+.img-box:hover .img-hover {
+  opacity: 1;
+}
+
+.img-box:hover .img {
+  filter: opacity(40%);
 }
