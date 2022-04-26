@@ -217,17 +217,16 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   transition: .5s;
 }*/
 
-.item {
+.img-box {
   background-color: lightgrey;
   position: relative;
 }
 
 .caption {
-  position: absolute;
-  justify-content: center;
   align-content: center;
-  opacity: 0;
   background: lightgray;
+  position: absolute;
+  opacity: 0;
 }
 
 .caption:hover {
