@@ -249,10 +249,6 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   align-items: center;
 }
 
-.img-box {
-  background-color: black;
-}
-
 .img-box a:hover {
   opacity: 0.25;
 }
@@ -263,6 +259,14 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 }
 
 .caption {
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  opacity: 0;
+}
+
+.caption:hover {
   position: absolute;
   flex-direction: column;
   justify-content: center;
