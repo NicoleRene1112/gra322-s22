@@ -182,7 +182,6 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 /*START HORIZONTAL SCROLL*/
 a:hover {
   color:black;
-  opacity: 0.1;
 }
 
 
