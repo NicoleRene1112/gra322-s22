@@ -180,8 +180,6 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 /*END HAMBURGER MENU*/
 
 /*START HORIZONTAL SCROLL*/
-
-
 .app {
   display: grid;
   cursor: grab;
@@ -212,20 +210,7 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   align-items: center;
 }
 
-.img-box {
+.item {
   background-color: lightgrey;
-  position: relative;
-}
-
-.caption {
-  align-content: center;
-  background: lightgray;
-  position: absolute;
-  opacity: 0;
-}
-
-.caption a:hover {
-  opacity: 1;
-  transition: .5s;
 }
 /*END HORIZONTAL SCROLL*/
