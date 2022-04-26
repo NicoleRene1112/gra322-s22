@@ -51,14 +51,6 @@ p {
   grid-row: 1 / span 2;
 }
 
-.img-box {
-  background color: black;
-}
-
-.img-box a:hover {
-  opacity: 0.25;
-}
-
 /*.image {
   position: relative;
 }
@@ -257,7 +249,26 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   align-items: center;
 }
 
+.img-box {
+  background color: black;
+}
+
+.img-box a:hover {
+  opacity: 0.25;
+}
+
 .item {
   background-color: lightgrey;
+  position: relative;
+}
+
+.caption {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 /*END HORIZONTAL SCROLL*/
