@@ -55,6 +55,11 @@ p {
   position: relative;
 }
 
+.image_img {
+  display: block;
+  width: 100%;
+}
+
 .image_overlay {
   align-items: center;
   background: rgba(0,0,0,0.6);
