@@ -270,7 +270,7 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   transition: 0.25s;
 }
 
-.caption:hover; {
+.caption:hover {
   opacity: 1;
 }
 /*END HORIZONTAL SCROLL*/
