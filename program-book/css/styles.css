@@ -271,6 +271,6 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  opacity: 0;
+  opacity: 1;
 }
 /*END HORIZONTAL SCROLL*/
