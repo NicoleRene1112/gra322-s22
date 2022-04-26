@@ -215,6 +215,7 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 }
 /*END HORIZONTAL SCROLL*/
 
+/*Overlay*/
 .img-box {
   display: flex;
 }
@@ -223,10 +224,6 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   position: relative;
   display: block;
   width: auto;
-  /*background: #000;
-  margin: 0 10px;
-  max-height: 360px;
-  overflow: hidden;*/
 }
 
 .img-box .img,
@@ -234,14 +231,9 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /*padding-bottom: 360px;*/
   width: auto;
   transition: 0.5s ease;
 }
-
-/*.hoverimg {
-  background-image: url('singlepagewebsite.html');
-}*/
 
 .img-box .hovertext {
   opacity: 0;
@@ -250,7 +242,7 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   left: 0;
   color: rgb(0, 0, 0);
   transition: 0.5s ease;
-  background-color: rgba(211, 211, 211, 25%);
+  background-color: rgba(211, 211, 211, 75%);
   width: 100%;
   height: 100%;
 }
@@ -269,3 +261,4 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   align-items: center;
   justify-content: center;
 }
+/*End Overlay*/
