@@ -212,7 +212,7 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   align-items: center;
 }
 
-.img-box a:hover {
+*.img-box a:hover {
   opacity: 0.25;
   transition: .5s;
 }
@@ -229,7 +229,7 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   opacity: 0;
 }
 
-*.caption:hover {
+.caption:hover {
   opacity: 1;
   transition: .5s;
 }
