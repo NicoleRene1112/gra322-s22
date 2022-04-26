@@ -249,7 +249,7 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   align-items: center;
 }
 
-.item caption a:hover {
+.item a:hover {
   opacity: 0.25;
   transition: .5s;
 }
