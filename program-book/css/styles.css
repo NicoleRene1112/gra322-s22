@@ -51,7 +51,15 @@ p {
   grid-row: 1 / span 2;
 }
 
-.image {
+.img-box {
+  background color: black;
+}
+
+.img-box a:hover {
+  opacity: 0.65;
+}
+
+/*.image {
   position: relative;
 }
 
@@ -86,7 +94,7 @@ p {
 
 .image_desc {
   margin-top: 0.25em;
-}
+}*/
 
 /*START HAMBURGER MENU*/
 /*Hamburger menu code by Daniel Hearn on CodePen*/
