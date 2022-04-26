@@ -267,9 +267,6 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 }
 
 .caption:hover {
-  position: absolute;
-  justify-content: center;
-  align-content: center;
   opacity: 1;
   transition: .5s;
 }
