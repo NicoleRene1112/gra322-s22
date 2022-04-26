@@ -257,8 +257,10 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   opacity: 0.25;
 }
 
-.img-box > caption, a:hover; {
+caption a:hover; {
   opacity: 1;
+  height: 100%;
+  width: 100%;
 }
 
 .item {
