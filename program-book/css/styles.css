@@ -239,11 +239,11 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   transition: 0.5s ease;
 }
 
-/*.one {
+/*.hoverimg {
   background-image: url('singlepagewebsite.html');
 }*/
 
-.img-box .img-hover {
+.img-box .hovertext {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -253,7 +253,7 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   transition: 0.5s ease;
 }
 
-.img-box:hover .img-hover {
+.img-box:hover .hovertext {
   opacity: 1;
 }
 
