@@ -214,3 +214,19 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   background-color: lightgrey;
 }
 /*END HORIZONTAL SCROLL*/
+
+.text {
+  width:auto;
+  height:auto;
+  background:#FFF;
+  opacity:0;
+}
+
+.pic:hover .text {
+  opacity:0.6;
+  text-align:justify;
+  color:#000000;
+  font-size:16pt;
+  font-weight:700;
+  font-family:"Raleway", Helvetica, sans-serif;
+}
