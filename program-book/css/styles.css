@@ -229,7 +229,7 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   opacity: 0;
 }
 
-.caption:hover {
+*.caption:hover {
   opacity: 1;
   transition: .5s;
 }
