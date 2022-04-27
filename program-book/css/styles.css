@@ -215,7 +215,7 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 }
 /*END HORIZONTAL SCROLL*/
 
-/*Overlay*/
+/*START Overlay*/
 .img-box {
   display: flex;
 }
@@ -261,4 +261,8 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   align-items: center;
   justify-content: center;
 }
-/*End Overlay*/
+/*END Overlay*/
+
+.mainimg {
+  grid-row: 4;
+}
