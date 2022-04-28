@@ -281,7 +281,7 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 
 .recipes {
   grid-row: 6;
-  grid-column: 8 / span 15;
+  grid-column: 9 / span 15;
 }
 
 .locations {
@@ -291,7 +291,7 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 
 .mobilescroll {
   grid-row: 8;
-  grid-column: 8 / span 15;
+  grid-column: 9 / span 15;
 }
 
 .mobilemenu {
@@ -301,5 +301,5 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 
  .mobileproducts {
   grid-row: 10;
-  grid-column: 8 / span 15;
+  grid-column: 9 / span 15;
 }
