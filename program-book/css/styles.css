@@ -57,13 +57,7 @@ p {
   font-size: 10pt;
   grid-column: 1 / 6;
   grid-row: 5;
-  text-align: center;
-}
-
-span {
-  display: inline-block;
   vertical-align: middle;
-  line-height: normal;
 }
 
 /*START HAMBURGER MENU*/
