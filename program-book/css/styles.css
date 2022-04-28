@@ -267,3 +267,8 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   grid-row: 4;
   grid-column: 1 / span 15;
 }
+
+.mainimg > img {
+  height: auto;
+  width: fit-content;
+}
