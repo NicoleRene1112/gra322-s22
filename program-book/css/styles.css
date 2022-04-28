@@ -59,6 +59,12 @@ p {
   grid-row: 5;
 }
 
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
 /*START HAMBURGER MENU*/
 /*Hamburger menu code by Daniel Hearn on CodePen*/
 @keyframes bugfix {
