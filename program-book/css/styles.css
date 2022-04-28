@@ -280,7 +280,7 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   grid-column: 1 / 8;
 }
 
-.productdesc > h2, .productdesc > p {
+.productdesc {
   grid-row: 6;
 }
 
