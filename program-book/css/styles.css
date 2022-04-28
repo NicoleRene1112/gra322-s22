@@ -266,7 +266,6 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 
 /*Single Page Website Page*/
 .mainimg {
-  display: flex;
   grid-row: 4;
   grid-column: 1 / 16;
 }
@@ -274,7 +273,7 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 .mainimg > img {
   height: 100%;
   width: auto;
-  justify-content: center;
+  margin: auto;
 }
 
 .products {
