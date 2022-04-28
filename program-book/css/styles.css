@@ -282,7 +282,7 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 
 .productdesc {
   grid-row: 6;
-  grid-column: auto;
+  grid-column: 9 / 16;
 }
 
 .recipes {
