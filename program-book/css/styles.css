@@ -280,6 +280,10 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   grid-column: 1 / 8;
 }
 
+.productdesc {
+  grid-row: 6;
+}
+
 .recipes {
   grid-row: 7;
   grid-column: 9 / 16;
