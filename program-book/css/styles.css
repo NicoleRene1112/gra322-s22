@@ -54,11 +54,10 @@ p {
 
 .footer {
   color: hsl(0, 0%, 50%);
-  display: table-cell;
   font-size: 10pt;
   grid-column: 1 / 6;
   grid-row: 5;
-  vertical-align: middle;
+  padding-top: 24px;
 }
 
 /*START HAMBURGER MENU*/
