@@ -267,12 +267,13 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 /*Single Page Website Page*/
 .mainimg {
   grid-row: 4;
-  grid-column: 3 / 16;
+  grid-column: 1 / 16;
 }
 
 .mainimg > img {
   height: 100%;
   width: auto;
+  align-items: center;
 }
 
 .products {
