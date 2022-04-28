@@ -363,3 +363,13 @@ p.productdesc {
   grid-row: 8;
   grid-column: 1 / 8;
 }
+
+/*Mobile*/
+@media screen and (min-width: 375px) {
+
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+
+}
