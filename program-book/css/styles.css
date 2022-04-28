@@ -276,30 +276,30 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 
 .products {
   grid-row: 5;
-  grid-column: 1/ span 7;
+  grid-column: 1/ 7;
 }
 
 .recipes {
   grid-row: 6;
-  grid-column: 9 / span 15;
+  grid-column: 9 / 16;
 }
 
 .locations {
   grid-row: 7;
-  grid-column: 1 / span 7;
+  grid-column: 1 / 7;
 }
 
 .mobilescroll {
   grid-row: 8;
-  grid-column: 9 / span 15;
+  grid-column: 9 / 16;
 }
 
 .mobilemenu {
  grid-row: 9;
- grid-column: 1 / span 7;
+ grid-column: 1 / 7;
 }
 
  .mobileproducts {
   grid-row: 10;
-  grid-column: 9 / span 15;
+  grid-column: 9 / 16;
 }
