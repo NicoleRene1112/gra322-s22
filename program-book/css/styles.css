@@ -285,6 +285,10 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
   grid-column: 9 / 16;
 }
 
+p.productdesc {
+  margin-top: 5rem;
+}
+
 .recipes {
   grid-row: 7;
   grid-column: 9 / 16;
