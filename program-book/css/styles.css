@@ -55,6 +55,7 @@ p {
 .footer {
   color: hsl(0, 0%, 50%);
   font-size: 10pt;
+  grid-column: span;
   grid-row: 5;
 }
 
