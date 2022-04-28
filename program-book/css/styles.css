@@ -3,11 +3,11 @@ html, body {
   width: 100%;
 }
   
-.back-to-top {
+/*.back-to-top {
   position: fixed;
   right: 1rem;
   bottom: 1rem;
-}
+}*/
   
 body {
   background-color: var(--white);
@@ -15,26 +15,25 @@ body {
   display: grid;
   font-family: "Raleway", Helvetica, Arial, san-serif;
   grid-auto-rows: min-content;
-  grid-template-columns: repeat(15, 3rem);
+  grid-template-columns: repeat(16, 1fr);
   grid-template-rows: 30px 27px 58px 474px 3rem;
   row-gap: 5px;
-  /*margin: 89px 7rem 0 7rem;*/
   padding: 89px 7rem 0 7rem;
 }
 
-.grid {
+ /*.grid {
   display: grid;
   grid-template-columns:
     [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px)
     [main-end] minmax(1rem, 1fr) [full-end];
   grid-template-rows: auto;
-  /*padding: 3rem 0;*/
-}
+ padding: 3rem 0;
+}*/
 
 h1 {
   color: black;
   font-size: 24pt;
-  grid-column: 1 / span 5;
+  grid-column: 1 / 6;
   grid-row: 1;
 }
 
@@ -190,7 +189,6 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 
 /*START HORIZONTAL SCROLL*/
 .app {
-  display: grid;
   cursor: grab;
   grid-column: 1 / 16;
   grid-row: 4;
@@ -227,9 +225,6 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 /*START Overlay*/
 .img-box {
   display: flex;
-}
-
-.img-box {
   position: relative;
   display: block;
   width: auto;
@@ -365,11 +360,43 @@ p.productdesc {
 }
 
 /*Mobile*/
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 18pt;
+    grid-column: 1 / 12;
+  }
+  
+  h2{
+    grid-column: 1 / 12;
+    grid-row: 2;
+  }
+  
+  p {
+    font-size: 10pt;
+    grid-row: 3;
+    grid-column: 1 / 16;
+  }
+ 
+  #overlay-button {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+  }
 
+  .hs {
+    grid-template-columns: repeat(6, 150px);
+    grid-template-rows: 150px;
+  }
+
+  .footer {
+    grid-column: 1 / 16;
+  }
 }
 
 /*Tablet*/
 @media screen and (max-width: 768px) {
-
+  .hs {
+    grid-template-columns: repeat(6, 250px);
+    grid-template-rows: 2500px;
+  }
 }
