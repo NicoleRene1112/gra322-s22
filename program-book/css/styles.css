@@ -14,7 +14,7 @@ body {
   column-gap: 23px;
   display: grid;
   font-family: "Raleway", Helvetica, Arial, san-serif;
-  grid-auto-rows: minmax(3rem, max-content);
+  grid-auto-rows: min-content;
   grid-template-columns: repeat(15, 3rem);
   grid-template-rows: 30px 27px 58px 474px 3rem;
   row-gap: 5px;
@@ -271,8 +271,8 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 }
 
 .mainimg > img {
-  height: auto;
-  width: 100%;
+  height: 100%;
+  width: auto;
 }
 
 .products {
