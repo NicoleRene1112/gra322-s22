@@ -54,6 +54,7 @@ p {
 
 .footer {
   color: hsl(0, 0%, 50%);
+  display: table-cell;
   font-size: 10pt;
   grid-column: 1 / 6;
   grid-row: 5;
