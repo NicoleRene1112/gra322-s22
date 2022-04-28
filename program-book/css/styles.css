@@ -14,7 +14,7 @@ body {
   column-gap: 23px;
   display: grid;
   font-family: "Raleway", Helvetica, Arial, san-serif;
-  grid-auto-rows: minmax(3rem, min-content);
+  grid-auto-rows: minmax(3rem, max-content);
   grid-template-columns: repeat(15, 3rem);
   grid-template-rows: 30px 27px 58px 474px 3rem;
   row-gap: 5px;
