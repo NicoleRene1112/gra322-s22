@@ -14,6 +14,7 @@ body {
   column-gap: 23px;
   display: grid;
   font-family: "Raleway", Helvetica, Arial, san-serif;
+  grid-auto-rows: min-content;
   grid-template-columns: repeat(15, 3rem);
   grid-template-rows: 30px 27px 58px 474px 3rem;
   row-gap: 5px;
@@ -295,11 +296,11 @@ input[type="checkbox"]:checked ~ #overlay-button span:after {
 }
 
 .mobilemenu {
- grid-row: 9;
- grid-column: 1 / 8;
+  grid-row: 9;
+  grid-column: 1 / 8;
 }
 
- .mobileproducts {
+.mobileproducts {
   grid-row: 10;
   grid-column: 9 / 16;
 }
