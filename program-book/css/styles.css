@@ -14,8 +14,8 @@ body {
   column-gap: 23px;
   display: grid;
   font-family: "Raleway", Helvetica, Arial, san-serif;
-  grid-auto-rows: min-content;
   grid-template-columns: repeat(16, 1fr);
+  /*grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));*/
   grid-template-rows: 30px 27px 58px 474px 3rem;
   row-gap: 5px;
   padding: 89px 7rem 0 7rem;
@@ -40,7 +40,7 @@ h1 {
 h2 {
   color: black;
   font-size: 16pt;
-  grid-column: 1 / span 5;
+  grid-column: 1 / 6;
   grid-row: 2;
 }
 
@@ -360,7 +360,12 @@ p.productdesc {
 }
 
 /*Mobile*/
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
+  
+  body {
+    padding: 10% 10% 10% 10%;
+  }
+  
   h1 {
     font-size: 18pt;
     grid-column: 1 / 12;
