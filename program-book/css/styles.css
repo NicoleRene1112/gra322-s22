@@ -32,28 +32,28 @@ body {
 
 h1 {
   color: black;
-  font-size: 24pt;
+  font-size: 2.3vw;
   grid-column: 1 / 6;
   grid-row: 1;
 }
 
 h2 {
   color: black;
-  font-size: 16pt;
+  font-size: 1.5vw;
   grid-column: 1 / 6;
   grid-row: 2;
 }
 
 p {
   color: hsl(0, 0%, 50%);
-  font-size: 10pt;
+  font-size: 1vw;
   grid-column: 6 / span 9;
   grid-row: 1 / span 2;
 }
 
 .footer {
   color: hsl(0, 0%, 50%);
-  font-size: 10pt;
+  font-size: 1vw;
   grid-column: 1 / 6;
   grid-row: 5;
   padding-top: 24px;
